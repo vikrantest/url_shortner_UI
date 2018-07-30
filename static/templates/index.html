@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>svrnow.com - Tiny Url Generator Montitor</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!--Style CSS-->
+
+<link rel="stylesheet" type="text/css"  href="static/css/style.css">
+<link rel="stylesheet" type="text/css"  href="static/css/bootstrap.css">
+<!--Jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--VueJs-->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<!--Js Lib-->
+<script src="static/js/main.js"></script>
+
+
+</head>
+<body id="page-top">
+<!-- Navigation -->
+<div id="nav">
+  <nav class="navbar navbar-custom">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+      </div>
+      
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden"> <a href="#page-top"></a> </li>
+          <li> <a class="page-scroll" href="#page-top">Sign-in</a> </li>
+          <li> <a class="page-scroll" href="#contact">Contact</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<!-- Header -->
+<div id="header">
+  <div class="head-main text-center">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="head-main-text">
+            <input name = 'main_url_input' id = 'main_url' type='text' class = 'url_input'>
+            <button id = 'generate_shurl' name = 'shurl_generate' class='shurl_generate'>GURL</button>
+          </div>
+          <div class = 'content_text'>
+            <div class = 'filter_content'>
+              <input type="checkbox" value = 'new_shurl' name = "new_shurl" id='new_shurl_flag'> Generate New Shurl
+            </div>
+            <div class='shurl_content' id = 'shurl_result'>
+            </div>
+            <div class='shurl_content_error' id = 'shurl_result_error' style="display: none;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

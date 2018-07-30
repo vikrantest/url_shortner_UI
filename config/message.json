@@ -1,0 +1,6 @@
+{
+	"error_message":{
+		"Invalid Request":"Something went wrong, please try after sometime.",
+		"Invalid Url":"Invalid URL for shortening."
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"Shurl_lib":{
+		"base_url":"http://localhost:8000/",
+		"generate_shurl":"http://localhost:8000/myshurl/generate-shurl/"
+	}
+	
+}
